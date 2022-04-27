@@ -29,7 +29,8 @@ python .\main.py
  * Debugger is active!
  * Debugger PIN: ***-***-***
 ```
-should be shown
+should be shown.
+
 3. Go to your web browser and open 'http://127.0.0.1:8080'
 4. Go back to your Terminal and enter the name(s) **names MUST be separated by commas `,`
 5. The results of each students will show on the terminal, like:
