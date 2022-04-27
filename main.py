@@ -46,7 +46,7 @@ def shat():
             student = pd.concat([student, pd.DataFrame({'Name': n, 'House': whouse(n)}, index=[0])], ignore_index=True)
             print(f"Congrats!\n{n} is in {student['House'][student['Name'] == n].values[0]}!")
     student.to_csv('student.csv', index=False)
-    return student.to_json()
+    return student.to_html(index=False)
 
 if __name__ == "__main__":
     app.run(host="127.0.0.1", port=8080, debug=True)
