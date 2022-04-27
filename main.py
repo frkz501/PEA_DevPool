@@ -12,7 +12,7 @@ def shat():
     except:
         student = pd.DataFrame(columns=['Name', 'House'])
     
-    name = str(input('Enter name(s) [seperated by commas] or csv/excel file:'))
+    name = str(input('Enter name(s) [seperated by commas]:'))
     house = ['Huff', 'Gryf', 'Slyt', 'Rave']
 
     def whouse(name: str):
@@ -50,4 +50,5 @@ def shat():
     return '<body>' + 'Congrats! ' + n + 'is in ' + student['House'][student['Name'] == n].values[0] + '!' \
         + '<br></body>' + summary.to_html(index=False) + '<body><br></body>' + student.to_html(index=False)
 if __name__ == "__main__":
-    app.run(host="https://rocky-earth-45049.herokuapp.com/")
+    # app.run("https://rocky-earth-45049.herokuapp.com/")
+    app.run(host="127.0.0.1", port=8080, debug=True)
