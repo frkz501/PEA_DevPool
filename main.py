@@ -50,4 +50,4 @@ def shat():
     return '<body>' + 'Congrats! ' + n + 'is in ' + student['House'][student['Name'] == n].values[0] + '!' \
         + '<br></body>' + summary.to_html(index=False) + '<body><br></body>' + student.to_html(index=False)
 if __name__ == "__main__":
-    app.run(host="https://rocky-earth-45049.herokuapp.com/", port=8080, debug=True)
+    app.run(host="https://rocky-earth-45049.herokuapp.com/")
