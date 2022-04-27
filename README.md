@@ -51,6 +51,6 @@ Sll is in Hufflepuff!
 2. If a house is full - divert to next house in the list : Hufflepuff > Gryffindor > Slytherin > Ravenclaw > Hufflepuff > ...
 ## Remarks
 I'm a beginner here. I have no idea about frontend coding.
-I tried (and maybe forced) to include flask in this project. (Also tried to use Google Cloud projects/heroku)
+I tried (and maybe forced) to include flask in this project. (Also tried to use Google Cloud projects - hence the `yaml` (just ignore it)/heroku)
 I hope I could better myself at utilizing these tools.
 Thanks for having me!
