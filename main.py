@@ -39,6 +39,9 @@ def shat():
     for n in name:
         n = n.strip().lower().capitalize()
         n = re.sub(' +', ' ', n)
+        if n == '':
+            print('You entered a blank name, skipped.')
+            continue
         if n in student['Name'].values:
             print(f"{n} is already in {student.loc[student['Name'] == n, 'House'].values[0]}!")
         else:
